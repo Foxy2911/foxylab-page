@@ -1,0 +1,78 @@
+/*default 1080p*/
+:root {
+    --main-background-color: #f2f2f2;
+    --secondary-background-color: #e6e7e8;
+    --footer-background-color: black;
+    --footer-text-color: white;
+}
+
+@font-face {
+    font-family: "Aquire";
+    src: url(assets/fonts/Aquire.otf);
+}
+
+@font-face {
+    font-family: "AquireLight";
+    src: url(assets/fonts/AquireLight.otf);
+}
+
+@font-face {
+    font-family: "AquireBold";
+    src: url(assets/fonts/AquireBold.otf);
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(180deg, #020024 0%, #090979 35%, #00d4ff 100%);
+}
+
+nav {
+    height: 10%;
+    display: flex;
+    flex-direction: row;   
+    justify-content: flex-end;
+}
+
+main {
+    display: flex;
+    margin-top: 5%;
+}
+
+a {
+    text-decoration: none;
+    font-family: "Aquire";
+    color: white;
+    font-size: 30px;
+    padding: 25px;
+    text-align: center;
+    cursor: pointer;
+}
+
+h1 {
+    color: white;
+    font-size: 60px;
+    font-family: "Aquire";
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+.content {
+    padding-top: 5%;
+    padding-left: 25%;
+    padding-right: auto;
+    width: 20%;
+    margin-right: 0;
+}
+
+.image {
+    margin-left: auto;
+    margin-right: auto;
+}
